@@ -257,7 +257,7 @@ footer {                          /* Styles for the footer section */
     font-size: 36px;  /* Even smaller for mobile */  /* Further reduces h1 size to 36px */
     letter-spacing: 2px;  /* Reduce letter spacing */  /* Reduces space between letters */
     margin: 10px 0;  /* Reduces top/bottom margin */
-    margin-top: 70px;  /* Adds margin above the h1 instead of padding */
+    margin-top: 200px;  /* Adds margin above the h1 instead of padding */
   }
   
   nav ul {
