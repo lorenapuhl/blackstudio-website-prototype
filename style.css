@@ -176,6 +176,16 @@ footer {
     line-height: 1.6;
     font-size: 14px;
   }
+  
+  /* Hide desktop header on mobile */
+  header {
+    display: none !important;
+  }
+  
+  /* Show hamburger button */
+  .menu-button {
+    display: flex !important;
+  }
 }
 
 /* Small Mobile Styles (screens smaller than 400px) */
@@ -186,5 +196,27 @@ footer {
   
   nav ul {
     gap: 5px;
+  }
+}
+
+/* ========================================
+   DESKTOP STYLES (screens larger than 600px)
+   ======================================== */
+@media screen and (min-width: 601px) {
+  /* Hide ALL mobile menu elements on desktop */
+  .menu-button,
+  .slide-menu,
+  .overlay {
+    display: none !important;
+  }
+  
+  /* Ensure desktop header is visible */
+  header {
+    display: block !important;
+  }
+  
+  /* Make sure desktop navigation is visible */
+  nav ul {
+    display: flex !important;
   }
 }

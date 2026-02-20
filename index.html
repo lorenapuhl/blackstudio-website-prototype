@@ -9,7 +9,7 @@
 <!-- Metadata: Contains document information, not displayed on website -->
 <head>
   <!-- Browser tab title and search result title -->
-  <title> BLACKSTUDIO oficial</title>
+  <title> BLACKSTUDIO official</title>
   <!--  Self-closing meta tag for metadata: <meta attribute="value"> -->
   <meta charset = "UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,7 +22,33 @@
 
   <!-- INTRODUCTION -->
   
-  <!-- Introductory content -->
+  <!-- HAMBURGER MENU BUTTON (MOBILE) -->
+  <div class="menu-button" id="menuButton">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+
+  <!-- Slide-out Menu (contains navigation for mobile) -->
+  <div class="slide-menu" id="slideMenu">
+    <button class="close-button" id="closeButton">✕</button>
+    <div class="menu-content">
+      <h3>Menu</h3>
+      <!-- This UL is identical to your desktop navigation -->
+      <ul class="menu-links">
+        <li><a href="/home/">Home</a></li>
+        <li><a href="/worldofdance/">WorldOfDance</a></li>
+        <li><a href="/blackhouse/">BlackHouse</a></li>
+        <li><a href="/blackwarriors/">BlackWarriors</a></li>
+        <li><a href="/blackgency/">BlackAgency</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Overlay (darkens page when menu is open) -->
+  <div class="overlay" id="overlay"></div>
+  
+   <!-- INTRODUCTION - DESKTOP (visible only on desktop) -->
   <header>
     <!-- Set of navigation links / navigation menus-->
     <nav>
@@ -72,6 +98,9 @@
     
   </footer> 
   
+  <!-- CALL SCRIPTS -->
+  <script src="js/menu.js"></script>
+
 </body>
 
 </html>
