@@ -11,6 +11,13 @@ This prototype was designed to establish an online presence for Blackstudio whil
 - Embedded Instagram feed showing latest posts
 - Contact information and address
 
+## File Structure
+blackstudio-website-prototype/
+├── index.html # Main HTML file
+├── style.css # All styles and design
+└── README.md # Project documentation
+
+
 ## Technologies Used
 
 - HTML5
@@ -37,6 +44,6 @@ Visit the live site: [https://lorenapuhl.github.io/blackstudio-website-prototype
 - Add contact form
 - Optimize for mobile devices
 
-## 📝 Notes
+## Notes
 
 This is a prototype created for demonstration purposes. The Instagram feed automatically updates with the studio's latest posts.
