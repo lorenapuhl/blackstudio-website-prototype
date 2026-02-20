@@ -117,3 +117,74 @@ footer {
   padding: 40px 20px;
   border-top: 1px solid #333;
 }
+
+/* ========================================
+   RESPONSIVE DESIGN - MEDIA QUERIES
+   ======================================== */
+
+/* Tablet Styles (screens smaller than 900px) */
+@media screen and (max-width: 900px) {
+  h1 {
+    font-size: 48px;  /* Smaller title for tablets */
+  }
+  
+  nav ul {
+    gap: 15px;  /* Reduce space between nav items */
+    padding: 15px;
+    flex-wrap: wrap;  /* Allow nav items to wrap if needed */
+    justify-content: center;
+  }
+  
+  p {
+    font-size: 16px;
+    margin: 15px;
+  }
+}
+
+/* Mobile Styles (screens smaller than 600px) */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 36px;  /* Even smaller for mobile */
+    letter-spacing: 2px;  /* Reduce letter spacing */
+    margin: 10px 0;
+  }
+  
+  nav ul {
+    gap: 10px;
+    padding: 10px;
+    flex-direction: column;  /* Stack nav items vertically */
+    align-items: center;
+  }
+  
+  nav a {
+    display: block;  /* Make links full width for easier tapping */
+    padding: 8px 0;
+    font-size: 16px;
+  }
+  
+  p {
+    font-size: 14px;
+    margin: 10px;
+  }
+  
+  footer {
+    padding: 30px 15px;
+    font-size: 14px;
+  }
+  
+  address {
+    line-height: 1.6;
+    font-size: 14px;
+  }
+}
+
+/* Small Mobile Styles (screens smaller than 400px) */
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 28px;  /* Smallest size for very small phones */
+  }
+  
+  nav ul {
+    gap: 5px;
+  }
+}
