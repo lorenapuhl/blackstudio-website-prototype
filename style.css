@@ -1,0 +1,119 @@
+/* style.css - Blackstudio Official Styles */
+
+/* RESET DEFAULT STYLE
+ * Universal selector * -> selects ALL elements on page
+ * margin: spacing between <div> boxes [Box 1]    ← 20px space →    [Box 2]
+   ↑                          ↑
+   └── Extra space around each box
+ * padding: Space inside an element between content and its border ┌─────────────────────┐
+│                     │ ← 20px padding
+│    Text content     │
+│                     │
+└─────────────────────┘
+  ↑ Border
+  
+ * box-sizing: border-box --> Changes how total width/height is calculated to include padding and border, width/height includes padding and border
+ 
+  ┌─────────────────────────────────┐
+  │         MARGIN (outside)        │
+  │  ┌───────────────────────────┐  │
+  │  │         BORDER            │  │
+  │  │  ┌─────────────────────┐  │  │
+  │  │  │      PADDING        │  │  │
+  │  │  │  ┌───────────────┐  │  │  │
+  │  │  │  │   CONTENT     │  │  │  │
+  │  │  │  │   (text)      │  │  │  │
+  │  │  │  └───────────────┘  │  │  │
+  │  │  │                     │  │  │
+  │  │  └─────────────────────┘  │  │
+  │  │                           │  │
+  │  └───────────────────────────┘  │
+  │                                 │
+  └─────────────────────────────────┘
+
+
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* BRAND COLOURS
+ * styling of body section
+ */
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* NAVIGATION STYLE
+ * Selects <ul> elements that are inside <nav> elements
+ * list-style: none; -     Removes bullet points from lists
+ * display: flex; - Makes items display horizontally
+ * gap: 20px; - Adds 20px space between flex items
+ * padding: 20px; - Adds 20px space inside the element (all sides)
+ */
+ 
+ nav {
+  display: flex;
+  justify-content: center;  /* Centers the ul inside the nav */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* HREF STYLES <a> tags
+ * color: white; - Makes link text white
+ * text-decoration: none; - Removes default underline from links
+ * font-weight: bold; - Makes text bold
+ */
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* HOVER EFFECTS for 
+ * :hover is a pseudo-class (state-based selector) --> Applies styles when mouse hovers over the elementlinks 
+ * Changes to colour #ff0
+*/
+nav a:hover {
+  color: #999;  
+}
+
+/* MAIN TITLE <h1> tag
+ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 72px;
+}
+
+/* PARAGRAPH STYLES <p>
+ */
+p {
+  margin: 20px;
+  color: #ccc;
+}
+
+/* FOOTER <footer> section
+ * 40px = top and bottom padding, 20px = left and right padding
+ * order-top-width: 1px; border-top-style: solid; border-top-color: #333; (dark gray)
+ */
+footer {
+  padding: 40px 20px;
+  border-top: 1px solid #333;
+}
