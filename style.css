@@ -15,10 +15,10 @@
   --header-color: rgba(255, 255, 255, 1); 
   
   /* Slightly lighter charcoal for banners/cards to create depth */
-  --banner-color: rgba(30, 30, 30, 0.95); 
+  --banner-color: rgba(255, 255, 255, 1);
   
   /* White text for the banner */
-  --banner-font: rgba(255, 255, 255, 1); 
+  --banner-font: rgba(30, 30, 30, 0.95);
 }
   
  /* ========================================
@@ -620,7 +620,7 @@ p {                               /* Styles for paragraph elements */
 /* Styles for the call-to-action button */
 .cta-button {
   background: var(--banner-font); /* Replace this with your button color, e.g., #ff0000 for red */
-  color: black;            /* Text color inside button - change to your preference */
+  color: white;            /* Text color inside button - change to your preference */
   padding: 10px 20px;      /* Space inside button: 10px top/bottom, 20px left/right */
   text-decoration: none;    /* Removes underline from link */
   border-radius: 50px;     /* Makes button edges super round for pill shape (use 5px for slightly round, 0 for square) */
