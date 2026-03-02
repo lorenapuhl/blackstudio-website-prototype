@@ -32,4 +32,4 @@ website-prototype/
 
 ## Live Demo
 
-Visit the live site: [https://lorenapuhl.github.io/xedra-website-prototype/](https://lorenapuhl.github.io/xedra-website-prototype/)
+Visit the live site: [https://lorenapuhl.github.io/blackstudio-website-prototype/](https://lorenapuhl.github.io/blackstudio-website-prototype/)
