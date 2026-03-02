@@ -1,0 +1,106 @@
+<!-- Blackstudio Website Prototype -->
+<!-- Declaring HTML5 type document -->
+<!DOCTYPE html>
+<!--  -->
+
+<!-- HTML content framework -->
+<html>
+
+<!-- Metadata: Contains document information, not displayed on website -->
+<head>
+  <!-- Browser tab title and search result title -->
+  <title> BLACKSTUDIO official</title>
+  <!--  Self-closing meta tag for metadata: <meta attribute="value"> -->
+  <meta charset = "UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- Webpage visible content -->
+<body>
+
+  <!-- INTRODUCTION -->
+  
+  <!-- HAMBURGER MENU BUTTON (MOBILE) -->
+  <div class="menu-button" id="menuButton">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+
+  <!-- Slide-out Menu (contains navigation for mobile) -->
+  <div class="slide-menu" id="slideMenu">
+    <button class="close-button" id="closeButton">✕</button>
+    <div class="menu-content">
+      <h3>Menu</h3>
+      <!-- This UL is identical to your desktop navigation -->
+      <ul class="menu-links">
+        <li><a href="/home/">Home</a></li>
+        <li><a href="/worldofdance/">WorldOfDance</a></li>
+        <li><a href="/blackhouse/">BlackHouse</a></li>
+        <li><a href="/blackwarriors/">BlackWarriors</a></li>
+        <li><a href="/blackgency/">BlackAgency</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Overlay (darkens page when menu is open) -->
+  <div class="overlay" id="overlay"></div>
+  
+   <!-- INTRODUCTION - DESKTOP (visible only on desktop) -->
+  <header>
+    <!-- Set of navigation links / navigation menus-->
+    <nav>
+      <!-- unordered list (bullet points) -->
+      <ul>
+      <!-- anchor link <a> starts the link element -->
+      <li><a href="/home/">Home</a></li>
+        <li><a href="/worldofdance/">WorldOfDance</a></li>
+        <li><a href="/blackhouse/">BlackHouse</a></li>
+        <li><a href="/blackwarriors/">BlackWarriors</a></li>
+        <li><a href="/blackgency/">BlackAgency</a></li>
+      </ul>
+    </nav>
+  </header>
+    
+  <!-- TITLE SECTION -->
+  
+  <!-- Division/Container grouping elements together -->
+  <div>
+    <!-- Title -->
+    <h1>BLACKSTUDIO official</h1>
+    <!-- Paragraph -->
+    <p>Dance School Mexico</p>
+  </div>
+  
+  <!-- INSTAGRAM FEED -->
+  
+  <!-- Division/Container  -->
+  <!-- -->
+  <!-- data-key: Custom data attribute (user-defined) used by JapaScript widget (mini appplication) -->
+  <!-- class attribute: ft ("fouita") for css styling or JavaScript selection -->
+  <!-- id: unique identifier name to define variabe name -->
+  <div data-key="Dark Instagram Feed  " class="ft" id="ftfe1aa3b"></div>
+  <!-- script tag calling code content from another JavaScript File-->
+  <script src="https://wdg.fouita.com/widgets/0x3df976.js"></script>
+ 
+  <!-- FOOTER SECTION -->
+  <footer>
+  
+    <p>informesblackstudio@gmail.com</p>
+    <p>55 5564 6422</p>
+    <p>
+    Ttlacotalpan 20 Col. Roma Sur, <br>
+    Mexico City, <br>
+    Mexico 06760
+    </p>
+    
+  </footer> 
+  
+  <!-- CALL SCRIPTS -->
+  <script src="js/menu.js"></script>
+
+</body>
+
+</html>
