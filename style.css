@@ -306,7 +306,7 @@ p {                               /* Styles for paragraph elements */
 /* Reserve button */
 .btn-reserve {
   background-color: var(--header-color);
-  color: #FFFFFF; 
+  color: black; 
   border: none;
   padding: 0.6em 1.2em;
   border-radius: 6px;
@@ -531,7 +531,7 @@ p {                               /* Styles for paragraph elements */
 /* Button Styling */
 .cta-btn {
   background: var(--header-color);
-  color: #fff;
+  color: black;
   border: none;
   padding: 0.8em 2.5em;
   border-radius: 6px;
@@ -620,7 +620,7 @@ p {                               /* Styles for paragraph elements */
 /* Styles for the call-to-action button */
 .cta-button {
   background: var(--banner-font); /* Replace this with your button color, e.g., #ff0000 for red */
-  color: white;            /* Text color inside button - change to your preference */
+  color: black;            /* Text color inside button - change to your preference */
   padding: 10px 20px;      /* Space inside button: 10px top/bottom, 20px left/right */
   text-decoration: none;    /* Removes underline from link */
   border-radius: 50px;     /* Makes button edges super round for pill shape (use 5px for slightly round, 0 for square) */
@@ -694,7 +694,7 @@ p {                               /* Styles for paragraph elements */
 .menu-button .bar {               /* Styles for the three bars inside hamburger button (DESCENDANT SELECTOR) */
   width: 25px;                    /* Sets bar width to 25 pixels */
   height: 3px;                    /* Sets bar height to 3 pixels */
-  background-color: white;        /* Sets bar color to white */
+  background-color: black;        /* Sets bar color to white */
 }
 
 /* Overlay base styles */
